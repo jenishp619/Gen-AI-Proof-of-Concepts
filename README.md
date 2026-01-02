@@ -75,7 +75,7 @@ details on architecture, usage, and implementation decisions.
 
 3. Set up environment variables for API keys in `.env` files as needed for each project.
 
-## Projects
+## POC (Proof of Concepts)
 
 ### 1. Hugging Face Demo
 
