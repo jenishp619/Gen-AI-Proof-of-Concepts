@@ -54,26 +54,24 @@ details on architecture, usage, and implementation decisions.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jenishp619/Gen-AI-Proof-of-Concepts.git
-   cd Gen-AI-Proof-of-Concepts
-   ```
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
    git clone <repository-url>
    cd Gen-AI-Proof-of-Concepts
    ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv llm
+   llm\Scripts\activate
+   ```
+
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Set up environment variables for API keys in `.env` files as needed for each project.
+4. Set up environment variables for API keys in `.env` files as needed for each project.
 
 ## POC (Proof of Concepts)
 
