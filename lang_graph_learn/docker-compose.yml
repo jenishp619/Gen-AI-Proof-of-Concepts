@@ -1,0 +1,32 @@
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    networks:
+      - mongo-network
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+    volumes:
+      - mongodb_data:/data/db
+  mongo-express:
+    image: mongo-express:latest
+    ports:
+      - "8081:8081"
+    environment:
+      # Connection details for the mongo-express container to connect to the 'mongo' container:
+      ME_CONFIG_MONGODB_SERVER: mongodb         # MUST match the name of the MongoDB service (mongo)
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin  # MUST match the username above
+      ME_CONFIG_MONGODB_ADMINPASSWORD: admin # MUST match the password above
+      ME_CONFIG_BASICAUTH_USERNAME: admin     # Web UI login username
+      ME_CONFIG_BASICAUTH_PASSWORD: admin # Web UI login password
+    depends_on:
+      - mongodb
+    networks:
+      - mongo-network
+networks:
+  mongo-network:
+    driver: bridge
+volumes:
+  mongodb_data:
