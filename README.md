@@ -1,16 +1,62 @@
-# Agentic AI Course Projects
+# Generative AI & Agentic Systems: Implementation Lab
 
-This repository contains a collection of projects and implementations developed during an Agentic AI course. It covers various topics in AI agent development, including Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), voice agents, memory systems, prompting techniques, and more.
+This repository contains a collection of technical implementations developed during an Agentic AI Intensive. It covers core fundamentals and hands-on functional demos of Agentic AI systems, including Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), and multi-model orchestration
+
+---
+
+## Purpose
+
+This repository serves as a comprehensive, hands-on reference for
+Agentic AI fundamentals and their integration with different LLM
+providers. The projects focus on practical, executable systems rather
+than theoretical examples, demonstrating how modern AI agents are
+designed, orchestrated, and deployed.
+
+It is intended for technical evaluation, learning, and discussion,
+particularly in the context of real-world AI application development.
+
+---
 
 ## Overview
 
-The projects demonstrate practical applications of AI technologies using modern frameworks and APIs. Each folder represents a separate project with its own focus and technologies.
+The projects demonstrate practical applications of AI technologies
+using modern frameworks and APIs. Each folder represents a separate,
+independent project with its own focus, tooling, and documentation.
+
+All projects are currently runnable and demonstrate working
+implementations of the respective concepts.
+
+---
+
+## Repository Structure
+
+Each top-level folder represents a standalone project or concept within
+Agentic AI. Projects are self-contained, with their own dependencies,
+configuration, and setup instructions.
+
+Most subprojects include their own README files that provide deeper
+details on architecture, usage, and implementation decisions.
+
+---
 
 ## Prerequisites
 
 - Python 3.9+
-- Various API keys (OpenAI, Anthropic, etc.) depending on the project
-- Docker (for containerized services)
+- API keys for relevant providers (OpenAI, Anthropic, Gemini, etc.),
+  depending on the project
+- Docker (required for containerized services such as vector databases
+  or background workers)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jenishp619/Gen-AI-Proof-of-Concepts.git
+   cd Gen-AI-Proof-of-Concepts
+   ```
 
 ## Installation
 
@@ -18,7 +64,7 @@ The projects demonstrate practical applications of AI technologies using modern 
 
    ```bash
    git clone <repository-url>
-   cd Agentic-AI-course
+   cd Gen-AI-Proof-of-Concepts
    ```
 
 2. Install dependencies:
@@ -147,8 +193,24 @@ The projects demonstrate practical applications of AI technologies using modern 
 
 ## Contributing
 
-Feel free to explore, modify, and extend these projects. Each folder is self-contained with its own dependencies and setup.
+Contributions & Feature Requests
+
+This repository is not open to external code contributions.
+
+However, discussions and feature requests related to Agentic AI
+concepts, integrations, or extensions are welcome and may guide future
+development.
+
+## Usage Notice
+
+This repository is shared publicly for learning, review, and technical
+evaluation purposes. You are welcome to explore the code and run it
+locally for personal understanding.
+
+Please do not reuse, redistribute, or deploy this code in production
+systems without explicit permission from the author.
 
 ## License
 
-Copyrights reserved by Jenish Patel</content>
+Copyright © 2026 Jenish Patel  
+All rights reserved.
