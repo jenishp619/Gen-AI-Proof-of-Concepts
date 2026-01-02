@@ -51,10 +51,17 @@ The projects demonstrate practical applications of AI technologies using modern 
 
 ### 3. MCP Dev
 
-**Purpose:** Development of MCP (Model Context Protocol) servers and clients for AI model interactions.  
-**Technologies:** Python, MCP library, Anthropic API, FastAPI, various LLMs.  
-**Key Files:** Multiple subprojects including file system servers, CLI chat apps, and notification systems.  
-**Description:** A hub for MCP implementations, featuring integrations with Anthropic, OpenAI, Gemini, and tools for file operations, chat, and more. Includes detailed READMEs in subfolders.
+**Purpose:** Comprehensive development of MCP (Model Context Protocol) servers and clients for AI model interactions, covering both fundamentals and advanced implementations.  
+**Technologies:** Python, MCP library, Anthropic API, Gemini API, OpenAI API, FastAPI, various LLMs.  
+**Key Files/Subprojects:**
+
+- **mcp_fs_server/** - File system MCP server with SSE support for file operations.
+- **MCP-anthropic/cli_project/** - CLI-based chat application integrating multiple LLMs (Anthropic Claude, Gemini, OpenAI).
+- **MCP-anthropic/notifications/** - Notification system using MCP for real-time updates.
+- **MCP-anthropic/roots/** - Advanced MCP implementation with video conversion tools and multi-LLM support.
+- **MCP-anthropic/sampling/** - Sampling strategies for MCP interactions with Gemini API.
+
+**Description:** A complete hub for MCP implementations, encompassing all Anthropic MCP fundamentals (basic server-client setups, tool integrations) and advanced tasks (multi-modal processing, video handling, sampling techniques). Fully integrated with Gemini API for enhanced AI capabilities, alongside Anthropic and OpenAI models. Includes tools for file operations, chat interfaces, notifications, and custom utilities. Each subproject has detailed READMEs for setup and usage.
 
 ### 4. Memory Agent
 
@@ -107,7 +114,7 @@ The projects demonstrate practical applications of AI technologies using modern 
 - `docker-compose.yaml` - Service orchestration.  
   **Description:** Queued system allowing asynchronous indexing and querying of documents using Celery workers.
 
-### 9. Todo App
+### 9. Todo App(This is not present and if you would like to create then please use agent present in weather_agent)
 
 **Purpose:** Simple web-based todo list application.  
 **Technologies:** HTML, CSS, JavaScript.  
