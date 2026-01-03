@@ -158,7 +158,7 @@ details on architecture, usage, and implementation decisions.
 - `docker-compose.yaml` - Service orchestration.  
   **Description:** Queued system allowing asynchronous indexing and querying of documents using Celery workers.
 
-### 9. Todo App(This is not present and if you would like to create then please use agent present in weather_agent)
+### 9. Todo App(This is not present and if you would like to create then please use agent present in weather_agent to generate this app)
 
 **Purpose:** Simple web-based todo list application.  
 **Technologies:** HTML, CSS, JavaScript.  
@@ -188,6 +188,24 @@ details on architecture, usage, and implementation decisions.
 - `main.py` - Weather fetching and chat interface.
 - `agent.py` - Agent implementation.  
   **Description:** Simple agent that retrieves weather data from external APIs and provides responses via chat.
+
+## References & Attribution
+
+Parts of this repository were developed as part of structured learning
+through professional courses and official documentation, and were
+extended, modified, and integrated to explore Agentic AI concepts in a
+hands-on manner.
+
+Primary references include:
+
+- Agentic AI and Model Context Protocol (MCP) materials from Anthropic
+- Generative AI and Agentic AI courses on Udemy
+- Official documentation and examples from OpenAI, Anthropic, Gemini,
+  LangChain, LangGraph, Qdrant, FastAPI, and related tooling
+
+All implementations were written, executed, and adapted as part of
+active learning, experimentation, and integration across multiple LLM
+providers and AI systems.
 
 ## Contributing
 
